@@ -1,0 +1,444 @@
+
+
+body{
+    background: rgb(2,0,36);
+    background-image: url(https://th.bing.com/th/id/R.a91af503ca642cb5d0eb9fce10111ef6?rik=yYMapPlPWbTgvw&riu=http%3a%2f%2fimg.artlebedev.ru%2feverything%2falfabank%2fsite5%2fmake_money.jpg&ehk=67Il7Zu%2baq2HJBTvZyC63ZlYTSVsJBfEoDiIv0cC6cs%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: system-ui;
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+
+header{
+    background-color: black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    box-shadow: 0 7px 8px -3px grey;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+    z-index: 99;
+}
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+.header-section div{
+    position: relative;
+}
+.header-section p{
+    position: absolute;
+    top: -24px;
+    right: -8px;
+    background-color: #fff;
+    padding: 1px 6px;
+    border-radius: 50%;
+    color: red;
+    font-weight: 700;
+    font-family: system-ui;
+    line-height: 18px;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.cart{
+    width: 39px;
+    height: 38px;
+}
+.cart-products{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    min-width: 290px;
+    height: 350px;
+    overflow-y: auto;
+    width: 300px;
+}
+
+.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+
+.products{
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carts{
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+    background: white;
+
+}
+.carts img{
+    width: 70%;
+}
+.carts p{
+    font-family: system-ui;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+.carts div p{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: grey;
+    color: #fff;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.carts div{
+    position: relative;
+}
+.carts a{
+    font-family: system-ui;
+    text-decoration: none;
+    background: lightslategrey;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carts a:hover{
+    background: #fff;
+    color: red;
+    border: solid 2px red;
+    transition-duration: .3s;
+}
+.products .carts:hover {
+    transform: translateY(-5px);
+}
+
+.cart-products .item img{
+    width: 115px;
+}
+
+.cart-products .item{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px red;
+}
+.cart-products .item .item-content{
+    margin: 0 19px;
+    width: 201px;
+}
+.cart-products .item .item-content h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item .item-content h6{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item span{
+    background-color: red;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.cart-products h3{
+    margin-bottom: 0;
+}
+.cart-products .item .item-content h5.cart-price{
+    font-weight: 700;
+}
+p.close-btn{
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+p.author {
+    display: flex;
+    justify-content: center;
+    FONT-VARIANT: JIS04;
+    margin-top: 3%;
+    gap: 7px;
+}
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.image-icon-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.image-icon-whatsapp:hover {
+    transform: scale(0.9);
+}
+
+.image-icon-whatsapp:active {
+    transform: scale(0.8);
+}
+
+.formulariowtsp {
+    width: 220px;
+    height: 280px;
+    background: orange;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 90px;
+    right: 60px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.22);
+    background: white;
+    padding: 5px 10px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.inputwts {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: arial;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    color: #666;
+
+
+}
+
+.inputwts:focus {
+    outline: none;
+}
+
+.textareawts {
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    height: 140px;
+    max-height: 140px;
+    min-height: 140px;
+    font-family: arial;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    color: #666;
+
+
+}
+
+.textareawts:focus {
+    outline: none;
+}
+
+.newmessagewts {
+    font-family: arial;
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 10px;
+}
+
+.btnwtsp {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background: #00a82d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+
+label {
+    font-family: arial;
+    font-size: 14px;
+    color: #333333;
+}
+
+.entrarysalir {
+    display: block;
+}
+
+.closemodal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    background: #00a82d;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: System-ui;
+
+}
+
+footer{
+    background: black;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+    font-family:monospace ;
+}
+a{
+    font-family:monospace ;
+    width: 100px;
+
+}
+
+#nombre {
+    width: 150px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+form-container label{
+    font-family: system-ui;
+    font-weight: 200;
+}
+h5{
+    color: green;
+}
+.form-container hr{
+    color: orange;
+}
+#direccion {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#nombre {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#telefono {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#idcliente {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#metodo-pago {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    width: 68%;
+    box-sizing: border-box;
+}
+.slider {
+    width: 95%;
+    margin: auto;
+
+}
+.slider ul {
+    padding: 0;
+
+}
+.slider liv{
+    list-style: none;
+}
+
+a{
+    color: white;
+    font-family: system-ui;
+}
+.register-container {
+    white-space: nowrap;
+}
+.register {
+    display: inline-block;
+}

@@ -1,0 +1,41 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 3em;
+    color: black;
+
+}
+body{
+    background: rgb(2,0,36);
+    background-image: url(https://th.bing.com/th/id/R.a91af503ca642cb5d0eb9fce10111ef6?rik=yYMapPlPWbTgvw&riu=http%3a%2f%2fimg.artlebedev.ru%2feverything%2falfabank%2fsite5%2fmake_money.jpg&ehk=67Il7Zu%2baq2HJBTvZyC63ZlYTSVsJBfEoDiIv0cC6cs%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+}
+.par2{
+
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    font-size: 2em;
+    color: black;
+    padding: 50px;
+
+
+}
+.container{
+
+}
+h1{
+    color: white;
+}
+.lead{
+    color: white;
+}
+h3{
+    color: white;
+}
+h5{
+    color: white;
+}
